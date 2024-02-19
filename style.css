@@ -34,3 +34,16 @@ header {
     gap: 10px;
     font-size: 18px;
 }
+
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.first-section_left,
+.first-section_right {
+    width: 450px;
+    color: white;
+}
