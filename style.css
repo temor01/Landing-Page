@@ -52,8 +52,9 @@ header {
 
 .second-section_content {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 .first-content,
@@ -62,8 +63,24 @@ header {
 .fourth-content {
     display: flex;
     flex-direction: column;
-    max-width: 100px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    text-align: center;
+}
+
+.second-section_content img {
+    border: #3882f6;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.source {
+    display: flex;
+    justify-content: flex-end;
 }
