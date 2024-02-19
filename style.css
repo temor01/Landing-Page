@@ -1,8 +1,4 @@
 
-html, body {
-    height: 100%;
-}
-
 html {
     display: table;
     margin: auto;
@@ -17,7 +13,7 @@ body {
 .top-section {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 95vh;
 }
 
 header {
@@ -46,4 +42,28 @@ header {
 .first-section_right {
     width: 450px;
     color: white;
+}
+
+.second-section_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section_content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.first-content,
+.second-content,
+.third-content,
+.fourth-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
