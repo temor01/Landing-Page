@@ -72,14 +72,19 @@ header {
 
 .second-section_content img {
     border: #3882f6;
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 25px;
 }
 
 .third-section {
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
+}
+
+.quote {
+    font: italic;
 }
 
 .source {
