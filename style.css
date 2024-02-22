@@ -39,9 +39,15 @@ header {
     background-color: #1f2937;
 }
 
+.first-section img {
+    width: 450px;
+    height: 200px;
+}
+
 .first-section_left,
 .first-section_right {
     width: 450px;
+    height: 200px;
     color: white;
 }
 
