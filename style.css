@@ -2,7 +2,7 @@
 html {
     display: flex;
     max-width: 860px;
-    margin-left: 25%;
+    margin: auto;
     box-sizing: border-box;
 }
 
