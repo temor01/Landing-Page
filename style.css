@@ -1,7 +1,8 @@
 
 html {
-    display: table;
-    margin: auto;
+    display: flex;
+    max-width: 860px;
+    margin-left: 25%;
     box-sizing: border-box;
 }
 
