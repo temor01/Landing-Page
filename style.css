@@ -41,12 +41,12 @@ header {
     background-color: #1f2937;
     padding: 15px;
     gap: 100px;
+    min-height: 350px;
 }
 
 .first-section_right,
 .first-section_left {
     min-width: 400px;
-    min-height: 400px;
 }
 
 .first-section img {
@@ -60,6 +60,10 @@ header {
     width: 450px;
     height: 200px;
     color: white;
+}
+
+.second-section {
+    max-height: 300px;
 }
 
 .second-section_title {
