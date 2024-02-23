@@ -23,6 +23,7 @@ header {
     color: white;
     justify-content: space-between;
     align-items: center;
+    padding: 50px;
 }
 
 .right-header {
@@ -37,11 +38,13 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
+    padding: 50px;
 }
 
 .first-section img {
     width: 450px;
     height: 200px;
+    border-radius: 25px;
 }
 
 .first-section_left,
