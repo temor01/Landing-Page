@@ -1,7 +1,7 @@
 
 html {
     display: flex;
-    max-width: 860px;
+    max-width: 920px;
     margin: auto;
     box-sizing: border-box;
 }
@@ -9,6 +9,7 @@ html {
 body {
     display: flex;
     flex-direction: column;
+    background-size: 100%;
 }
 
 .top-section {
@@ -23,7 +24,7 @@ header {
     color: white;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 0px 10px;
 }
 
 .right-header {
@@ -38,7 +39,14 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-    padding: 50px;
+    padding: 15px;
+    gap: 100px;
+}
+
+.first-section_right,
+.first-section_left {
+    min-width: 400px;
+    min-height: 400px;
 }
 
 .first-section img {
