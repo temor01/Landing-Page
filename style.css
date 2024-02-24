@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     background-size: 100%;
+    font-family: Helvetica;
 }
 
 .top-section {
@@ -111,7 +112,7 @@ header {
 }
 
 .quote {
-    font: italic;
+    font-style: italic;
 }
 
 .source {
