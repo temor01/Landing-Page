@@ -19,6 +19,10 @@ body {
     font-family: Helvetica;
 }
 
+body {
+    flex: 1 1 0%;
+}
+
 p {
     font-size: 18px;
 }
@@ -55,7 +59,7 @@ header {
     background-color: #1f2937;
     padding: 15px;
     gap: 100px;
-    min-height: 350px;
+    flex: auto;
 }
 
 .first-section h1 {
@@ -76,12 +80,11 @@ header {
 .first-section_left,
 .first-section_right {
     width: 450px;
-    height: 200px;
     color: white;
 }
 
 .second-section {
-    max-height: 300px;
+    flex: auto;
 }
 
 .second-section_title {
@@ -120,6 +123,7 @@ header {
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
+    flex: auto;
 }
 
 .quote p {
@@ -139,6 +143,7 @@ header {
     align-items: center;
     background-color: #3882f6;
     color: white;
+    flex: auto;
 }
 
 .footer {
