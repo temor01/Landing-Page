@@ -1,7 +1,6 @@
 
 html {
     display: flex;
-    max-width: 1012px;
     margin: auto;
     box-sizing: border-box;
 }
@@ -15,8 +14,8 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    background-size: 100%;
     font-family: Helvetica;
+    margin: 0;
 }
 
 p {
@@ -29,12 +28,19 @@ p {
     min-height: 95vh;
 }
 
+.top-header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
 header {
     display: flex;
     background-color: #1f2937;
     color: white;
     justify-content: space-between;
     align-items: center;
+    width: 1012px;
 }
 
 .left-header h1 {
