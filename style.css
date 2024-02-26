@@ -83,6 +83,13 @@ header {
     color: white;
 }
 
+button {
+    background-color: #3882f6;
+    border-color: #3882f6;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
 .second-section {
     flex: auto;
 }
