@@ -1,7 +1,7 @@
 
 html {
     display: flex;
-    max-width: 920px;
+    max-width: 1012px;
     margin: auto;
     box-sizing: border-box;
 }
@@ -80,6 +80,7 @@ header {
 }
 
 button {
+    color: white;
     background-color: #3882f6;
     border-color: #3882f6;
     border-radius: 5px;
@@ -143,21 +144,19 @@ button {
 
 .bottom-section {
     display: flex;
-    justify-content: space-evenly;;
+    justify-content: center;
     align-items: center;
-    color: white;
-    flex: auto;
-    border-radius: 10px;
 }
 
 .bottom-section_content {
     background-color: #3882f6;
-    padding: 75px;
-    border-radius: 20px;
+    padding: 30px 120px;
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 100px;
+    width: 100%;
+    color: white;
 }
 
 .first-section,
