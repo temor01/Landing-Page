@@ -146,24 +146,6 @@ button {
     border-radius: 25px;
 }
 
-.third-section_background {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #e5e7eb;
-}
-
-.quote p {
-    font-style: italic;
-    font-size: 36px;
-    font-weight: lighter;
-}
-
-.source {
-    display: flex;
-    justify-content: flex-end;
-}
-
 .bottom-section {
     display: flex;
     justify-content: center;
