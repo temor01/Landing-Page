@@ -96,9 +96,17 @@ button {
     background-color: #1f2937;
 }
 
-.second-section {
+.second-section_container {
+    display: flex;
     justify-content: center;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
+    max-width: 1012px;
 }
 
 .second-section_title {
