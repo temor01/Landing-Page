@@ -28,7 +28,7 @@ p {
     min-height: 95vh;
 }
 
-.top-header {
+.header_background {
     background-color: #1f2937;
     display: flex;
     justify-content: center;
