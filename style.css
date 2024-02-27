@@ -146,6 +146,34 @@ button {
     border-radius: 25px;
 }
 
+.third-section_background {
+    background-color: #e5e7eb;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote p {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quote {
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.source {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1012px;
+}
+
 .bottom-section {
     display: flex;
     justify-content: center;
