@@ -198,10 +198,16 @@ button {
     flex: 1;
 }
 
+.footer_background {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1f2937;
     color: white;
+    max-width: 1012px;
 }
