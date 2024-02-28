@@ -15,7 +15,6 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Helvetica;
-    margin: 0;
 }
 
 p {
