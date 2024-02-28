@@ -147,12 +147,15 @@ button {
 
 .third-section_background {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
 }
 
 .third-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 1012px;
 }
 
 .quote p {
